@@ -1,0 +1,65 @@
+body{
+    font-family:Arial, sans-serif;
+    color: white;
+    background-color: #0a0a0a;
+    margin: 25px;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+ 
+header logo {
+    height: 65px;
+    padding-left: 40px;
+}
+
+header nav{
+    color: #ffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: 1rem;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+header nav a{
+    display: flex;
+}
+
+header nav:hover{
+    opacity: 1;
+}
+
+.hero{
+    text-align: left;
+    padding: 100px 50px;
+}
+
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 1.25rem;
+    opacity: 0.8;
+    line-height: 1.6;
+}
+
+.hexagon-bg {
+    position:absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100;
+    background: url('./images/logo.png') center center no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+    z-index: -1;
+    
+}
